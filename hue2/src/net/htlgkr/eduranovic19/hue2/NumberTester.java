@@ -30,8 +30,14 @@ public class NumberTester {
 
     public void testFile() {
         s = new Scanner(fileName);
+        while (s.hasNextLine()) {
+            String line = s.next();
+            String[] split = line.split("\\s+");
+        }
+        s.close();
         NumberTest isEven = (number) -> (number % 2) == 0;
         NumberTest isPrime = (number) -> {
+
             return true;
         };
     }
