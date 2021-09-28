@@ -11,4 +11,5 @@ package net.htlgkr.eduranovic19.hue2;
  */
 public interface NumberTest {
 
+    boolean testNumber(int number);
 }
